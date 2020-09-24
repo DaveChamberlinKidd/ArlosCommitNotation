@@ -1,36 +1,38 @@
-# Arlo's Commit Notation
+# Arlo's Commit Notation with Emojis
 
 ## Upper case: Deliberate behavior changes
 
-| Prefix  | Meaning                                                   |
-| ------- | --------------------------------------------------------- |
-| F       | Feature (<= 8 LoC<sup>[4]</sup>)                        |
-| B       | Bug (<= 8 LoC<sup>[4]</sup>)                              |
-| R       | Test-supported Refactoring<sup>[3]</sup>                      |
+| Prefix  | Emoji | Meaning                                                   |
+| ------- | ----- | --------------------------------------------------------- |
+| F       | :gem: | Feature (<= 8 LoC<sup>[4]</sup>)                          |
+| B       | :bug: | Bug (<= 8 LoC<sup>[4]</sup>)                              |
+| R       | :art: | Test-supported Refactoring<sup>[3]</sup>                  |
 
 ## Lower case: Low risk
 
-| Prefix  | Meaning                                                      |
-| ------- | ------------------------------------------------------------ |
-| c       | Comments (add/delete)                                        |
-| d       | Developer documentation changes (not end-user facing<sup>[1]</sup>)        |
-| e       | Environment (non-code) changes that affect development setup |
-| t       | Test only                                                    |
-| r       | Provable Refactoring<sup>[2]</sup>                 |
-| a       | Automated formatting                                         |
+| Prefix  | Emoji   | Meaning                                                             |
+| ------- | ------- | ------------------------------------------------------------------- |
+| c       | :memo:  | Comments (add/delete)                                               |
+| d       | :book:  | Developer documentation changes (not end-user facing<sup>[1]</sup>) |
+| e       | :herb:  | Environment (non-code) changes that affect development setup        |
+| t       | :tada:  | Test only                                                           |
+| r       | :rose:  | Provable Refactoring<sup>[2]</sup>                                  |
+| a       | :robot: | Automated formatting                                                |
 
 ## Three characters: The danger zone!
 
-| Prefix  | Meaning                                                   |
-| ------- | --------------------------------------------------------- |
-| !!!     | Non-provable refactoring                                  |
-| F!!     | Feature (> 8 LoC<sup>[4]</sup>)                             |
-| B!!     | Bug (> 8 LoC<sup>[4]</sup>)                                   |
-| ***     | Does not compile intermediate step                        |
+| Prefix  | Emoji  | Meaning                                                   |
+| ------- | ------ | --------------------------------------------------------- |
+| !!!     | :fire: | Non-provable refactoring                                  |
+| F!!     | :ring: | Feature (> 8 LoC<sup>[4]</sup>)                           |
+| B!!     | :ant:  | Bug (> 8 LoC<sup>[4]</sup>)                               |
+| ***     | :poop: | Does not compile intermediate step                        |
 
 # Description
 
 [Arlo's](https://twitter.com/arlobelshee) Commit Notation is a way of making small commits that show the risk involved in each step. It is particulary useful in legacy systems. 
+
+Some people like visual queues and find that emojis are easier to spot and process when scanning through commit histories quickly. This extension to Arlo's Commit Notation proposes an an emoji to match each of the commit types.  
 
 # Provable Refactorings
 [2]:#provable-refactorings
