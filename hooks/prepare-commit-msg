@@ -1,0 +1,34 @@
+#!/bin/sh
+
+COMMIT_MSG_FILE=$1
+COMMIT_SOURCE=$2
+SHA1=$3
+
+echo "# Please use Arlo's Commit Notation" >> $1
+echo "# ---------------------------------------" >> $1
+echo "#" >> $1
+echo "# Uppercase: Deliberate behaviour change" >> $1
+echo "# ---------------------------------------" >> $1
+echo "# F	Feature (<=8 LoC)" >> $1
+echo "# B	Bug (<=8 LoC)" >> $1
+echo "# R	Test-supported Refactoring" >> $1
+echo "#" >> $1
+echo "# Lowercase: Low risk" >> $1
+echo "# ---------------------------------------" >> $1
+echo "# c	Comments (add/delete)" >> $1
+echo "# d	Developer documentation changes (not end-user facing)" >> $1
+echo "# e	Environment (non-code) changes that affect development setup" >> $1
+echo "# t	Test only" >> $1
+echo "# r	Provable Refactoring" >> $1
+echo "# a	Automated formatting" >> $1
+echo "#" >> $1
+echo "# Three characters: The danger zone!" >> $1
+echo "# ---------------------------------------" >> $1
+echo "# !!!	Non-provable refactoring" >> $1
+echo "# F!!	Feature (>8 LoC)" >> $1
+echo "# B!!	Bug (>8 LoC)" >> $1
+echo "# ***	Does not compile. Intermediate step" >> $1
+
+
+
+
