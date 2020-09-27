@@ -78,6 +78,11 @@ Therefore, we treat any feature or bug fix as high risk if it changes more than 
 
 One good approach to enable small features is to refactor until the feature change is easy, then add it. Then add the feature one piece at a time, with a test for each.
 
+# Hooks
+
+## Prepare Commit Message
+Copy the `prepare-commit-msg` file into your `.git/hooks` directory to add notation help text
+
 # Living Documentation
 
 We invite you to submit pull requests to help evolve this notation and methodology.
