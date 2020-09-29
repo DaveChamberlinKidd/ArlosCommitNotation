@@ -25,7 +25,7 @@
 | ------- | ------ | ---------- | --------------------------------------------------------- |
 | !!!     | :fire: | fire       | Non-provable refactoring                                  |
 | F!!     | :ring: | ring       | Feature (> 8 LoC<sup>[4]</sup>)                           |
-| B!!     | :ant:  | bug        | Bug (> 8 LoC<sup>[4]</sup>)                               |
+| B!!     | :ant:  | ant        | Bug (> 8 LoC<sup>[4]</sup>)                               |
 | ***     | :poop: | poop       | Does not compile intermediate step                        |
 
 # Description
