@@ -2,31 +2,31 @@
 
 ## Upper case: Deliberate behavior changes
 
-| Prefix  | Emoji | Meaning                                                   |
-| ------- | ----- | --------------------------------------------------------- |
-| F       | :gem: | Feature (<= 8 LoC<sup>[4]</sup>)                          |
-| B       | :bug: | Bug (<= 8 LoC<sup>[4]</sup>)                              |
-| R       | :art: | Test-supported Refactoring<sup>[3]</sup>                  |
+| Prefix  | Emoji | Emoji Name | Meaning                                                   |
+| ------- | ----- | ---------- | --------------------------------------------------------- |
+| F       | :gem: | gem        | Feature (<= 8 LoC<sup>[4]</sup>)                          |
+| B       | :bug: | bug        | Bug (<= 8 LoC<sup>[4]</sup>)                              |
+| R       | :art: | art        | Test-supported Refactoring<sup>[3]</sup>                  |
 
 ## Lower case: Low risk
 
-| Prefix  | Emoji   | Meaning                                                             |
-| ------- | ------- | ------------------------------------------------------------------- |
-| c       | :memo:  | Comments (add/delete)                                               |
-| d       | :book:  | Developer documentation changes (not end-user facing<sup>[1]</sup>) |
-| e       | :herb:  | Environment (non-code) changes that affect development setup        |
-| t       | :tada:  | Test only                                                           |
-| r       | :rose:  | Provable Refactoring<sup>[2]</sup>                                  |
-| a       | :robot: | Automated formatting                                                |
+| Prefix  | Emoji   | Emoji Name | Meaning                                                             |
+| ------- | ------- | ---------- | ------------------------------------------------------------------- |
+| c       | :memo:  | memo       | Comments (add/delete)                                               |
+| d       | :book:  | book       | Developer documentation changes (not end-user facing<sup>[1]</sup>) |
+| e       | :herb:  | herb       | Environment (non-code) changes that affect development setup        |
+| t       | :tada:  | tada       | Test only                                                           |
+| r       | :rose:  | rose       | Provable Refactoring<sup>[2]</sup>                                  |
+| a       | :robot: | robot      | Automated formatting                                                |
 
 ## Three characters: The danger zone!
 
-| Prefix  | Emoji  | Meaning                                                   |
-| ------- | ------ | --------------------------------------------------------- |
-| !!!     | :fire: | Non-provable refactoring                                  |
-| F!!     | :ring: | Feature (> 8 LoC<sup>[4]</sup>)                           |
-| B!!     | :ant:  | Bug (> 8 LoC<sup>[4]</sup>)                               |
-| ***     | :poop: | Does not compile intermediate step                        |
+| Prefix  | Emoji  | Emoji Name | Meaning                                                   |
+| ------- | ------ | ---------- | --------------------------------------------------------- |
+| !!!     | :fire: | fire       | Non-provable refactoring                                  |
+| F!!     | :ring: | ring       | Feature (> 8 LoC<sup>[4]</sup>)                           |
+| B!!     | :ant:  | bug        | Bug (> 8 LoC<sup>[4]</sup>)                               |
+| ***     | :poop: | poop       | Does not compile intermediate step                        |
 
 # Description
 
